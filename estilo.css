@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin: 0 auto;
+}
+header{
+    background-color: #C09E85;
+    text-align: center;
+    height: 100px;
+    top: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header > h1{
+    padding-top: 30px;  /*usei esse padding-top para descolar o h1 do header do topo da página*/
+}
+nav {
+    background-color: #E2BA9C;
+    overflow: hidden;
+    justify-content: center;
+}
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* display flex alinha os itens do menu em linhas */
+}
+nav ul li a {
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: #111;
+}
+#principal{
+    height: 700px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #EBC1A1;
+}
+footer{
+    text-align: center;
+    background-color: #C09E85;
+    height: 80px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer > p {
+    font-size: 1.2em;
+    padding-top: 30px;
+
+}
